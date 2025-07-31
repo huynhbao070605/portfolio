@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificates</title>
+  <style>
+    body {
+      background-image: url("background2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: white;
+      -webkit-text-stroke: 1px black;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+
+    .certificates-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 0 40px 60px 40px;
+    }
+
+    .certificate-card {
+      width: 300px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .certificate-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .certificate-card h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 15px 0 10px;
+    }
+
+    .certificate-card p {
+      padding: 0 15px 20px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .back-button {
+      display: block;
+      text-align: center;
+      margin: 30px auto 60px;
+      padding: 12px 24px;
+      color: white;
+      border: 2px solid white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: background-color 0.3s, color 0.3s;
+      width: fit-content;
+    }
+
+    .back-button:hover {
+      background-color: white;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+
+    <div class="certificates-container">
+      <!-- Certificate 1 -->
+      <div class="certificate-card">
+        <img src="google cybersecurity.jpg" alt="Google Cybersecurity Certificate">
+        <h3>Google Cybersecurity Certificate</h3>
+        <p>Gained knowledge in security foundations, threat analysis, and risk management.</p>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="certificate-card">
+        <img src="computational thinking.jpg" alt="Problem Solving Certificate">
+        <h3>Problem Solving Using Computational Thinking</h3>
+        <p>Learned to decompose problems, identify patterns, and apply logical solutions.</p>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="certificate-card">
+        <img src="AI essential.jpg" alt="Google AI Essentials">
+        <h3>Google AI Essentials</h3>
+        <p>Explored AI concepts, ethical considerations, and practical applications of AI.</p>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="certificate-card">
+        <img src="vnnic.jpg" alt="Internet and Resources Certificate">
+        <h3>Internet and Internet Resources</h3>
+        <p>Understood how to search, evaluate, and use internet tools effectively.</p>
+      </div>
+    </div>
+
+    <a href="main.html" class="back-button">← Back to homepage</a>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.tag {
+  padding: 8px 16px;
+  background-color: rgba(0, 255, 255, 0.1);
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  cursor: default;
+}
+
+.tag:hover {
+  background-color: rgba(0, 255, 255, 0.3);
+}
